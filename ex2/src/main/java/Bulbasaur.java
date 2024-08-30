@@ -31,7 +31,7 @@ public class Bulbasaur {
         switch(id){
             case 1: return "Bulbasaur";
             case 2: return "Ivysaur";
-            case 3: return "Venasuar";
+            case 3: return "Venusaur";
         }
         return "";
     }
@@ -47,7 +47,7 @@ public class Bulbasaur {
     public String toString() {
         // TODO: Implement this method
         // Return a string representation of the Bulbasaur object
-        return "Level equals " + level + ". ID equals " + id; // Placeholder return value
+        return "Level: " + level + ". ID: " + id; // Placeholder return value
     }
 
     // equals method
